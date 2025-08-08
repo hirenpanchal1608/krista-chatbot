@@ -1,16 +1,14 @@
-
-          
-// advice to include CSS and JS scripts in a header
-<link rel="stylesheet" href="https://extension.qa-in.eng.krista.app/extension/api/7EOZMlhNEZti9WtRRFKGgA_e_e/chatbot/ui/launcher.css"/>
-<script src="https://extension.qa-in.eng.krista.app/extension/api/7EOZMlhNEZti9WtRRFKGgA_e_e/chatbot/ui/launcher.js"></script>
+// advice to include CSS and JS scripts in header 12345
+<link rel="stylesheet" href="https://extension.qa-in.eng.krista.app/extension/api/h_sPxOFE3l354pVSx4xx1KA_e_e/chatbot/ui/launcher.css"/>
+<script src="https://extension.qa-in.eng.krista.app/extension/api/h_sPxOFE3l354pVSx4xx1KA_e_e/chatbot/ui/launcher.js"></script>
 
 
 
 // place this right before the closing body tag
 <script>
   const options = {
-    position: "bottomRight",
-    host: "https://extension.qa-in.eng.krista.app/extension/api/7EOZMlhNEZti9WtRRFKGgA_e_e/chatbot/",
+    position: 'bottomRight', // bottomRight, centerLeft, centerRight, topLeft, topRight
+    host:"https://extension.qa-in.eng.krista.app/extension/api/h_sPxOFE3l354pVSx4xx1KA_e_e/chatbot/",
     chatBubble: {
         cssClass: 'bubble-btn',
         icon: `<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,5 +23,3 @@
     kristaChatbot.init();
     
 </script>
-
-        
